@@ -1,0 +1,837 @@
+
+/*-------For Responsive--------*/
+
+@media only screen and (max-width:1400px){
+    .ls-container {
+        width: 96%;
+    }
+
+}
+
+@media only screen and (max-width:1200px){
+    .ls-nav-container {
+        width: 98%;
+    }
+
+    .ls_data-title {
+        font-size: 32px;
+    }
+
+    .ls_data-subtitle::after{
+        left:42%;
+    }
+
+    .ls-feature-title {
+        font-size: 35px;
+    }
+
+    .ls-feature-link {
+        width: 990px;
+    }
+
+    .ls-feature-tab > li {
+        width: 243px;
+        font-size: 16px;
+    }
+
+    .ls-testi-title {
+        font-size: 32px;
+    }
+
+    .ls-footer-container {
+        width: 98%;
+    }
+
+}
+
+@media only screen and (max-width:1024px){
+
+    .ls_data-subtitle::after {
+        left: 40%;
+    }
+
+    .ls-databox-content > li {
+        flex: 0 0 48%;
+        max-width: 48%;
+    }
+
+    .ls-feature-tab-grid > li:first-child {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+
+    .ls-feature-tab-grid > li:last-child {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+
+    .ls-feature-tab-title {
+        font-size: 18px;
+    }
+
+    .ls-testi-subtitle::after{
+        display:none;
+    }
+
+    .ls-testimonial-wrapper {
+        margin: 45px auto 5px;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .ls-feature-link {
+        width: 768px;
+    }
+
+    .ls-feature-tab > li {
+        width: 186px;
+        font-size: 14px;
+    }
+
+    .ls-feature-tab-grid > li:first-child {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 35px 0 20px;
+    }
+
+    .ls-feature-tab-grid > li:last-child {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .ls-testimonial-area {
+        margin: 50px 0 40px;
+    }
+
+    .ls-testi-subtitle {
+        font-size: 21px;
+        padding: 0 30px 18px;
+    }
+
+    .testimonial-twitter-items {
+        flex-direction: column;
+    }
+
+    .testimonial-twitter-items > li {
+        flex: 0 0 50%;
+        max-width: 50%;
+        background-color: #fff;
+        margin: 2% auto;
+    }
+
+    .ls-testimonial-twitter-card{
+        min-height:170px;
+    }
+
+}
+
+
+@media only screen and (max-width:768px){
+
+
+    .ls-navigation-bar {
+        border-bottom: none;
+    }
+
+    .ls-navlinks,
+    .ls-nav-cta a:first-child {
+       display: none;
+    }
+
+    .ls-login-btn {
+        padding: 12px 35px;
+        margin: 0;
+    }
+
+    .fa.fa-bars.hamburg-icon {
+        font-size: 20px;
+    }
+  
+    .menu_icon {
+        display: block;
+        color:#fff;
+    }
+
+    .ls_submenu {
+        z-index: 99;
+        right: -80px;
+    }
+
+    .ls-bannar-content {
+        padding: 40px 20px 40px;
+    }
+
+    .ls-bannar-title {
+        font-size: 32px;
+        margin: 20px 0 20px;
+    }
+
+    .ls-bannar-content > p {
+        margin: 0 0 15px;
+    }
+
+    .ls-bannar-link {
+        margin: 30px 0 12px;
+    }
+
+    .ls-bannar-image > img {
+        max-width: 90%;
+    }
+
+    .ls-data-area {
+        margin: 60px 0 80px;
+    }
+
+    .ls_data-title {
+        font-size: 32px;
+        margin: 0 0 10px;
+    }
+
+    .ls_data-subtitle {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .ls_data-subtitle::after {
+        left: 37%;
+    }
+
+    .ls-data-description{
+        min-height:70px;
+    }
+
+    .ls-feature-title {
+        font-size: 30px;
+    }
+
+    .ls-feature-subtitle {
+        font-size: 18px;
+    }
+
+    .ls-main-feature {
+        padding: 10px 0 25px;
+    }
+
+    .ls-feature-link {
+        max-width: 100%;
+    }
+
+    .ls-feature-tab {
+        background: none;
+        box-shadow: none;
+        justify-content: space-between;
+        display: flex;
+        border-radius: 0;
+        position: relative;
+    }
+
+    .ls-feature-tab > li {
+        width: 150px;
+        font-size: 15px;
+        white-space: nowrap;
+        font-weight:400;
+    }
+
+    .ls-feature-tab > li.ls_feature-active {
+        color: rgba(25,30,37,.8);
+        font-weight: 600;
+        background: none;
+        border-bottom: 2px solid rgba(25,30,37,.8);
+        border-radius: 0;
+    }
+
+    .ls-feature-tabcontent {
+        margin: 30px auto 15px;
+    }
+
+    .ls-feature-screen {
+        font-size: 9px;
+        text-indent: 5px;
+    }
+
+    .ls-testi-subtitle {
+        font-size: 17px;
+    }
+
+    .ls-testi-title {
+        margin-bottom: 25px;
+    }
+
+    .testimonial-twitter-items > li {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+
+    .ls-submit-header {
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (max-width:576px){
+
+    .ls-login-btn {
+        color: #191e25;
+        background: #fff;
+        padding: 8px 15px;
+        border-radius: 4px;
+        margin: 0 24px 0 0;
+        font-size: 14px;
+    }
+
+    .ls-login-btn > i {
+        display: none;
+    }
+
+    .ls-bannar-content {
+        padding: 30px 0px 30px;
+    }
+
+    .ls-bannar-title {
+        font-size: 21px;
+        margin: 20px 0 15px;
+    }
+
+    .ls-bannar-content > p {
+        margin: 0 0 28px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .ls-bannar-link {
+        margin: 0 0 12px;
+    }
+
+    .ls-bannar-button {
+        padding: 15px 20px;
+        font-size: 17px;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+
+    .ls-bannar-image > img {
+        max-width: 100%;
+    }
+
+    .ls-data-area {
+        margin: 60px 0 60px;
+    }
+
+    .ls_data-heading {
+        padding: 0 15px;
+    }
+
+    .ls_data-title {
+        font-size: 22px;
+        margin: 0 0 5px;
+        letter-spacing: 0;
+    }
+
+    .ls_data-subtitle {
+        font-size: 14px;
+        padding-bottom: 18px;
+        letter-spacing: 0px;
+    }
+
+    .ls_data-subtitle::after {
+        left: 30%;
+    }
+
+    .ls-data-box {
+        margin: 55px 0 0;
+    }
+
+    .ls-databox-content {
+        flex-direction: column;
+    }
+
+    .ls-databox-content > li {
+        flex: 0 0 85%;
+        max-width: 85%;
+        margin: 1.5% auto;
+        padding: 25px 15px;
+    }
+
+    .ls-databox-content > li:nth-child(7) {
+        width: 100%;
+    }
+
+    .ls-data-description {
+        min-height: 55px;
+    }
+
+    .ls-feature-title {
+        font-size: 24px;
+        letter-spacing: 0;
+        margin: 0 0 10px;
+    }
+
+    .ls-feature-subtitle {
+        font-size: 14px;
+    }
+
+    .ls-main-feature {
+        padding: 30px 0 25px;
+    }
+
+    .ls-feature-link {
+        padding: 0;
+    }
+
+    .ls-feature-tab > li.ls_feature-active {
+        border-bottom: none;
+        color: #fff;
+        background-color: rgba(25,30,37,.8);
+        border-radius: 50px;
+    }
+
+    .ls-feature-tab {
+        flex-direction: column;
+    }
+
+    .ls-feature-tab > li {
+        width: 90%;
+        height: 0;
+        padding: 25px 35px;
+        font-size: 16px;
+    }
+
+    .ls-feature-tabcontent {
+        margin: 25px auto 15px;
+    }
+
+    .ls-feature-tab-grid {
+        flex-direction: column-reverse;
+    }
+
+    .ls-feature-tab-grid > li:last-child {
+        flex: 0 0 90%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .ls-feature-tab-grid > li:first-child {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .ls-feature-tab-title {
+        font-size: 18px;
+        text-align: center;
+        line-height: 26px;
+    }
+
+    .ls-feature-tab-description {
+        text-align: center;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .ls-tab-button {
+        margin: 0 auto;
+    }
+    .ls-tab-button > a {
+        text-align: center;
+        font-size: 16px;
+        padding: 15px 30px;
+        border-radius: 6px;
+    }
+
+    .ls-testimonial-area {
+        margin: 25px 0 40px;
+    }
+
+    .ls-testi-title {
+        font-size: 24px;
+        letter-spacing: 0;
+        margin-bottom: 15px;
+    }
+
+    .ls-testi-subtitle {
+        font-size: 21px;
+        padding: 0 10px 18px;
+        font-size: 15px;
+    }
+
+    .ls-testimonial-wrapper {
+        margin: 15px auto 5px;
+    }
+
+    .testimonial-image > img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .ls-testimonial-twitter {
+        margin: 40px 0 60px;
+    }
+
+    .testimonial-twitter-items > li {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    
+    .ls-submit-area {
+        padding: 35px 0 30px;
+    }
+
+    .ls-submit-header {
+        font-size: 16px;
+        line-height: 24px;
+        margin:0;
+    }
+
+    .submit-btn {
+        padding: 15px 25px;
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width:480px){
+
+    .ls-login-btn {
+        padding: 5px 12px;
+        margin: 0 15px 0 0;
+        font-size: 13px;
+    }
+
+    .ls-navlinks.responsive_menu_active{
+        top:72px;
+    }
+
+    .ls-bannar-title {
+        font-size: 22px;
+        margin: 20px 0 18px;
+    }
+
+    .ls-bannar-link {
+        margin: 0;
+    }
+
+    .ls-bannar-button {
+        padding: 13px 20px;
+        font-size: 16px;
+    }
+
+    .ls-data-area {
+        margin: 50px 0 60px;
+    }
+
+    .ls-data-box {
+        margin: 50px 0 0;
+    }
+
+    .ls-databox-content > li {
+        padding: 20px 15px;
+    }
+
+    .datatool-ico_1,.datatool-ico_2,.datatool-ico_3,.datatool-ico_4,.datatool-ico_5,.datatool-ico_6,
+    .datatool-ico_7,.datatool-ico_8,.datatool-ico_9
+    {
+        margin-bottom: 5px;
+    }
+
+    .ls_data-title {
+        font-size: 21px;
+        margin: 0 0 0;
+        
+    }
+
+    .ls_data-subtitle {
+        font-size: 16px;
+    }
+
+    .ls_data-subtitle::after {
+        left: 27%;
+    }
+
+    .ls-learnmore-button > a {
+        font-size: 18px;
+    }
+
+    .ls-feature-title {
+        font-size: 21px;
+    }
+
+    .ls-feature-subtitle {
+        font-size: 16px;
+    }
+
+    .ls-feature-tab > li {
+        border: 1px solid rgba(25,30,37,.8);
+        border-radius: 50px;
+        margin-bottom: 8px;
+    }
+
+    .ls-feature-screen {
+        font-size: 10px;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+
+    .ls-testi-title {
+        font-size: 23px;
+    }
+
+    .ls-testi-subtitle {
+        padding: 0 0 18px;
+        font-size: 14px;
+    }
+
+    .testimonial-twitter-messege {
+        font-size: 13px;
+    }
+
+    .ls-footer-content {
+        flex-direction: column;
+    }
+
+    .ls-footer-content > li {
+        text-align: center;
+    }
+
+    .ls-footer-header {
+        padding: 0;
+        margin: 24px 0 12px;
+    }
+
+    .ls-footer-header::after{
+        display:none;
+    }
+
+    .ls-footer-social-icon {
+        border-bottom: none;
+        margin-bottom: 10px;
+    }
+
+    .ls-copyright-link {
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width:360px){
+   
+    .ls-logo {
+        font-size: 22px;
+    }
+
+    .ls-bannar-title {
+        font-size: 20px;
+        margin: 15px 0 15px;
+        padding: 0 25px;
+        line-height: 28px;
+    }
+
+    .ls-bannar-content > p {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 0 18px;
+    }
+
+    .ls-bannar-button {
+        padding: 12px 18px;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .ls-bannar-image > img {
+        padding: 45px 20px 15px;
+    }
+
+    .ls_data-title {
+        font-size: 18px;
+        margin: 0 0 10px;
+        line-height: 24px;
+    }
+
+    .ls_data-subtitle {
+        font-size: 14px;
+    }
+
+    .ls_data-subtitle::after {
+        left: 35%;
+        width: 100px;
+        height: 2px;
+    }
+
+    .ls-databox-content > li {
+        flex: 0 0 96%;
+        max-width: 96%;
+    }
+
+    .ls-data-header {
+        font-size: 18px;
+    }
+
+    .ls-data-description {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .ls-learnmore-button > a {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+
+    .ls-feature-area {
+        margin: 60px 0 60px;
+    }
+
+    .ls-feature-title {
+        font-size: 20px;
+        line-height: 26px;
+        padding: 0 25px;
+    }
+
+    .ls-feature-subtitle {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .ls-main-feature {
+        padding: 30px 0 0px;
+    }
+
+    .ls-feature-screen {
+        font-size: 8px;
+    }
+
+    .ls-feature-tab-title {
+        font-size: 16px;
+        text-align: center;
+        line-height: 24px;
+    }
+
+    .ls-feature-tab-description {
+        text-align: center;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .ls-tab-button > a {
+        font-size: 14px;
+        padding: 12px 30px;
+        border-radius: 50px;
+    }
+
+    .ls-testi-title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 12px;
+    }
+
+    .ls-testi-subtitle {
+        padding: 0 0 18px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .testimonial-twitter-items > li {
+        flex: 0 0 90%;
+        max-width: 90%;
+    }
+
+    .ls-submit-area {
+        padding: 30px 15px 30px;
+    }
+
+    .ls-submit-header {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0;
+    }
+
+    .submit-btn {
+        font-size: 14px;
+    }
+
+    .ls-footer-bottom {
+        flex-wrap: wrap;
+    }
+
+    .ls-copyright-link {
+        padding: 5px 15px;
+    }
+}
+
+@media only screen and (max-width:320px){
+
+    .ls-logo {
+        font-size: 21px;
+    }
+
+    .ls-navlinks.responsive_menu_active {
+        top: 100px;
+    }
+
+    .ls-bannar-title {
+        padding: 0 10px;
+        margin: 15px 0 20px;
+    }
+
+    .ls-bannar-content > p {
+        padding: 0 12px;
+    }
+
+    .ls_data-subtitle::after {
+        left: 33%;
+    }
+
+    .ls-feature-area {
+        margin: 60px 0 70px;
+    }
+
+    .ls-feature-title {
+        padding: 0 15px;
+    }
+
+    .ls-feature-screen {
+        font-size: 7px;
+        font-weight: 600;
+    }
+
+    .ls-feature-tab-grid > li:first-child{
+        margin: 15px auto 0;
+    }
+
+    .ls-feature-right-image > img{
+        padding:0;
+    }
+
+    .ls-feature-tab-title {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .ls-feature-tab-description {
+        line-height: 19px;
+    }
+
+    .ls-testi-subtitle {
+        line-height: 19px;
+    }
+
+    .testimonial-twitter-items > li {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 10px;
+        margin:2.5% auto;
+    }
+
+    .ls-testimonial-twitter-card{
+        padding:5px 15px;
+        justify-content: space-around;
+        min-height:150px;
+    }
+
+    .testimonial-twitter-messege {
+        font-size: 12px;
+    }
+
+    .testimonial-bottom-left > span{
+        font-size:13px;
+    }
+}
